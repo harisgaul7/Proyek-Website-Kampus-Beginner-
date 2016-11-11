@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+    body {
+      background-color: rgb(59, 31, 154);
+    }
+    ul {
+      width: auto;
+      height: 100%;
+      padding: 0px;
+    }
+    div.bodyTengah {
+      width: 80%;
+      height: auto;
+      margin: 0px auto 30px auto;
+    }
+    li {
+      display: inline;
+    }
+    .menuAtas {
+      width: auto;
+      height: 27px;
+      background-color: rgb(42, 159, 7);
+      padding: 0px 29px 0px 29px;
+      box-sizing: border-box;
+      color: gold;
+      margin: auto;
+    }
+    .menuUtama {
+      background-repeat: no-repeat;
+    }
+    .menuKiri {
+      line-height: 27px;
+      float: right;
+    }
+    .menuKanan {
+      line-height: 27px;
+      padding-right: 25px;
+      float: left;
+    }
+    a, a:hover, a:active, a:visited, a:link {
+      border: none;
+      text-decoration: none;
+      cursor: pointer;
+      color: inherit;
+    }
+    .left {
+      float: left;
+    }
+    .pemisah {
+      width: 2px;
+      height: 32px;
+      margin-right: 10px;
+      color: rgb(27, 196, 43);
+    }
+
+    </style>
+    <title>www.uin-suska.ac.id</title>
+  </head>
+  <body>
+    <div class="bodyTengah">
+      <div class="menuAtas">
+        <ul>
+          <li><a class="menuKanan" href="HubungiKami.html" target="_blank" title="Hubungi kami">Call Us</a></li>
+          <li><a class="menuKanan" href="HubungiKami.html" target="_blank" title="Tentang kami">About Us</a></li>
+          <li><a class="menuKanan" href="HubungiKami.html" target="_blank" title="Bantuan">Help</a></li>
+          <li><a class="menuKiri" href="HubungiKami.html" target="_blank" title="Login">Login</a></li>
+        </ul>
+      </div>
+      <div class="menuUtama">
+
+      </div>
+    </div>
+  </body>
+</html>
